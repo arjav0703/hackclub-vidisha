@@ -62,7 +62,20 @@ import {
           </Grid>
         </Container>
         </Box>
-        
+
+        <Box
+        as="main"
+        sx={{ bg: 'background', color: 'accent', py: 4, h1: { mt: 4 } }}
+      >
+        <Container variant='wide'>
+          <Heading variant="title">What is Hackclub?</Heading>
+          <Card as="main" sx={{ p: 3, mt: 3, borderRadius: 'extra', bg: 'sheet' }}>
+            <Text variant='subtitle' >
+              Hack Club is a global network of programming clubs where members learn to code through tinkering and building projects. We have a strong community of students who help each other learn and grow.
+            </Text>
+          </Card>
+        </Container>
+        </Box>
     </>
   )
   
