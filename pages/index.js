@@ -40,8 +40,29 @@ import {
           <Heading as="h1" variant="title" color="red">
             Hack Club Vidisha
           </Heading>
+          <Grid
+            gap={4}
+            columns="auto auto auto"
+            sx={{
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontSize: 2,
+              mt: 3,
+              mb: 4,
+              a: { color: 'muted', transition: 'color .125s ease-in-out' }
+            }}
+          >
+            <NavLink href="https://github.com/HackClub-Vidisha/">GitHub</NavLink>
+            <NavLink href="#members">
+              Members
+            </NavLink>
+            <NavLink href="https://github.com/hackclub/theme-starter">
+              Starter
+            </NavLink>
+          </Grid>
         </Container>
         </Box>
+        
     </>
   )
   
