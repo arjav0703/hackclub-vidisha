@@ -67,7 +67,9 @@ import {
         as="main"
         sx={{ bg: 'background', color: 'accent', py: 4, h1: { mt: 4 } , flexWrap: 'wrap'}}
       >
-        <Container variant='wide'>
+          <Flex sx={{justifyContent: 'center', alignItems: 'center', flexGrow: 1}}>
+
+            <Container>
           <Heading variant="headline">What is Hackclub?</Heading>
           <Card as="main" sx={{ p: 1, mt: 1, borderRadius: 'extra', bg: 'sheet' }}>
             <Text variant='subtitle' >
@@ -75,17 +77,8 @@ import {
             </Text>
           </Card>
         </Container>
-          <Flex sx={{justifyContent: 'center', alignItems: 'center',py: 4 }}>
-            <Container variant='wide'>
-              <Heading variant="headline">What if I do not know coding?</Heading>
-              <Card as="main" sx={{ p: 1, mt: 1, borderRadius: 'extra', bg: 'sheet' }}>
-                <Text variant='subtitle' >
-                  It is completely fine if you are new to code. We have a lot of resources and a community that will help you learn to code. We have a lot of members who are new to coding and are learning to code.
-                </Text>
-              </Card>
-            </Container>
 
-            <Container variant='wide'>
+            <Container >
               <Heading variant="headline">How can I join Hackclub?</Heading>
               <Card as="main" sx={{ p: 1, mt: 1, borderRadius: 'extra', bg: 'sheet' }}>
                 <Text variant='subtitle' >
@@ -94,6 +87,15 @@ import {
               </Card>
             </Container>
           </Flex>
+        <Container> 
+              <Heading variant="headline">What if I do not know coding?</Heading>
+              <Card as="main" sx={{ p: 1, mt: 1, borderRadius: 'extra', bg: 'sheet' }}>
+                <Text variant='subtitle' >
+                  It is completely fine if you are new to code. We have a lot of resources and a community that will help you learn to code. We have a lot of members who are new to coding and are learning to code.
+                </Text>
+              </Card>
+            </Container>
+
         </Flex>
     </>
   )
