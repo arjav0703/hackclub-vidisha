@@ -24,6 +24,7 @@ import {
   import theme from '@hackclub/theme'
   import ColorSwitcher from '../components/color-switcher'
   import Bio from '../components/bio'
+  import Footer from '../components/footer'
 
   
   const HomePage = () => (
@@ -131,6 +132,7 @@ import {
           </Container>
 
       </Container>
+      <Footer></Footer>
     </>
   )
   

@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import { Box, Container, Image, Grid, Heading, Link, Text } from 'theme-ui'
 import NextLink from 'next/link'
 import theme from '@hackclub/theme'
-import Icon from './icon'
+
 
 const Base = styled(Box, { shouldForwardProp: prop => prop !== 'dark' })`
   background: ${props =>
@@ -45,13 +45,13 @@ const Service = ({ href, icon, name = '', ...props }) => (
     title={`Hack Club on ${name ? name : icon}`}
     {...props}
   >
-    <Icon glyph={icon} />
+    
   </Link>
 )
 
 const Footer = ({
   dark = false,
-  email = 'team@hackclub.com',
+  email = 'arjavjain0703@gmail.com',
   children,
   ...props
 }) => (
@@ -90,24 +90,15 @@ const Footer = ({
           <Heading as="h2" variant="subheadline" mb={3}>
             Hack&nbsp;Club
           </Heading>
-          <NextLink href="/philosophy" passHref>
-            <Link>Philosophy</Link>
-          </NextLink>
-          <NextLink href="/team" passHref>
-            <Link>Our Team & Board</Link>
-          </NextLink>
-          <NextLink href="/jobs" passHref>
-            <Link>Jobs</Link>
-          </NextLink>
-          <NextLink href="/brand" passHref>
-            <Link>Branding</Link>
-          </NextLink>
-          <NextLink href="/press" passHref>
-            <Link>Press Inquiries</Link>
-          </NextLink>
-          <NextLink href="/philanthropy" passHref>
-            <Link>Donate</Link>
-          </NextLink>
+          <Link href="https://hackclub.com/philosophy" >
+            Philosophy
+          </Link>
+          <Link href="https://www.figma.com/design/6CtqRxtPd0fJLnqGN2otEx/Hack-Club-Branding-2020-(Community)?node-id=0-1&t=oXbxdToO5xuzAdoh-1" >
+            Figma Designs
+          </Link>
+          <Link href="https://hackclub.com/philanthropy" >
+            Donate
+          </Link>
         </Box>
         <Box>
           <Heading as="h2" variant="subheadline" mb={3}>
@@ -116,7 +107,6 @@ const Footer = ({
           <Link href="https://events.hackclub.com/">Community Events</Link>
           <Link href="https://jams.hackclub.com/">Jams</Link>
           <Link href="https://toolbox.hackclub.com/">Toolbox</Link>
-          <Link href="https://directory.hackclub.com/">Clubs Directory</Link>
           <Link href="https://hackclub.com/conduct/">Code of Conduct</Link>
         </Box>
         <Box sx={{ gridColumn: ['span 2', 'span 1'] }}>
