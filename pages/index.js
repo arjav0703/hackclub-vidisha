@@ -100,41 +100,32 @@ import {
 
       <Container>
         <Heading variant="headline">Team</Heading>
-        <Grid
-          columns={[null, 2, 3]}
-          gap={3}
-          sx={{ code: { mt: 1, ml: -1, fontSize: 0 } }}
-        >
-          <Card
-            sx={{
-              backgroundImage: t => t.util.gx('#FF83EC', '#0043EC'),
-              color: 'white',
-              transition: 'transform 0.2s',
-              '&:hover': {
-                transform: 'scale(1.05)'
-              }
-            }}
-          >
-            <Heading variant="headline" as="h3" my={0}>
-              Arjav Jain
-            </Heading>
-            <Text variant="subtitle">
-              Tech lead <Link href="https://jain.arjav.tech">Contact</Link>
-            </Text>
-          </Card>
 
           <Box sx={{ flexGrow: 1 }}>
                 <Grid columns={[1, null, 2]} gap={2} mb={2}>
                   <Bio
-                    img="/pages/me.jpg"
-                    name="Zach Latta"
-                    teamRole="Founder"
-                    text="Zach dropped out of high school after his freshman year to work in the technology industry and had over 5 million people using his software by the time he turned 17. He founded Hack Club to build the program he wish he had in high school and has been awarded the Thiel Fellowship and Forbes 30 Under 30 for his work."
+                    img="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
+                    name="Arjav Jain"
+                    teamRole="Tech Lead"
+                    text="Arjav is a 14 year old from Vidisha who loves to code. He is the tech lead of Hack Club Vidisha. He mostly works on web development and graphic designing."
                     pronouns="he/him"
-                    email="zach"
+                    email="arjavjain0703@gmail.com"
                   />
-          </Grid></Box>
-        </Grid>
+                </Grid>
+           </Box>
+           <Box sx={{ flexGrow: 1 }}>
+                <Grid columns={[1, null, 2]} gap={2} mb={2}>
+                  <Bio
+                    img="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
+                    name="Anay Jain"
+                    teamRole="Event Coordinator"
+                    text="Anay is a 13 year old from Vidisha who loves to code. He is the event coordinator of Hack Club Vidisha. He is responsible for managing events and workshops and ensuring commutnity involvement."
+                    pronouns="he/him"
+                    email="anayjain1128@gmail.com"
+                  />
+                </Grid>
+           </Box>
+
       </Container>
     </>
   )
