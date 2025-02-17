@@ -103,7 +103,9 @@ const Footer = ({
             Donate
           </Link>
         </Box>
-        <text>Made with &#128157; by <Link href='https://jain.arjav.tech'>Arjav</Link>. <Link href='https://github.com/HackClub-Vidisha/alt-web/'>Source code</Link></text>
+        <text>Made with &#128157; by <Link href='https://jain.arjav.tech'>Arjav</Link>. 
+        <br></br>
+        <Link href='https://github.com/HackClub-Vidisha/alt-web/'>Source code</Link></text>
 
         <Box>
           <Heading as="h2" variant="subheadline" mb={3}>
