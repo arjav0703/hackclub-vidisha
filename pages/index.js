@@ -23,6 +23,7 @@ import {
   import Meta from '@hackclub/meta'
   import theme from '@hackclub/theme'
   import ColorSwitcher from '../components/color-switcher'
+  import Bio from '../components/bio'
 
   
   const HomePage = () => (
@@ -121,23 +122,18 @@ import {
               Tech lead <Link href="https://jain.arjav.tech">Contact</Link>
             </Text>
           </Card>
-          <Card
-            sx={{
-              backgroundImage: t => t.util.gx('red', 'yellow'),
-              color: 'white',
-              transition: 'transform 0.2s',
-              '&:hover': {
-                transform: 'scale(1.05)'
-              }
-            }}
-          >
-            <Heading variant="headline" as="h3" my={0}>
-              Anay Jain
-            </Heading>
-            <Text variant="subtitle">
-              Event Coordinator <Link href="malito:anayjain1128@gmail.com">Contact</Link>
-            </Text>
-          </Card>
+
+          <Box sx={{ flexGrow: 1 }}>
+                <Grid columns={[1, null, 2]} gap={2} mb={2}>
+                  <Bio
+                    img="/pages/me.jpg"
+                    name="Zach Latta"
+                    teamRole="Founder"
+                    text="Zach dropped out of high school after his freshman year to work in the technology industry and had over 5 million people using his software by the time he turned 17. He founded Hack Club to build the program he wish he had in high school and has been awarded the Thiel Fellowship and Forbes 30 Under 30 for his work."
+                    pronouns="he/him"
+                    email="zach"
+                  />
+          </Grid></Box>
         </Grid>
       </Container>
     </>
