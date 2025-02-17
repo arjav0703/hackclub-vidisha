@@ -103,7 +103,7 @@ const Footer = ({
             Donate
           </Link>
         </Box>
-        <text>Made with &#128157; by <Link href='https://jain.arjav.tech'>Arjav</Link>. 
+        <text>Made with &#128157; by <Link href='https://jain.arjav.tech'>Arjav</Link> 
         <br></br>
         <Link href='https://github.com/HackClub-Vidisha/alt-web/'>Source code</Link></text>
 
