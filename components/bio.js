@@ -61,7 +61,7 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
           <Flex>
             <Text>
               <Text
-                color="accent"
+                color="#f94343"
                 variant="subheadline"
                 fontSize={2}
                 sx={{
@@ -76,7 +76,7 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
                 <>
                   <br />
                   <Text
-                    color="accent"
+                    color="#f94343"
                     sx={{
                       mb: ['0px', '0px', '0px'],
                       fontSize: 1,
@@ -89,14 +89,14 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
                 </>
               )}
               {pronouns && (
-                <Text fontSize={1} ml={1} color="muted" align="center">
+                <Text fontSize={1} ml={1} color="steel" align="center">
                   ({pronouns})
                 </Text>
               )}
             </Text>
           </Flex>
           {!popup && email && (
-            <Text color="muted" as={'a'} href={`mailto:${email}`}>
+            <Text color="steel" as={'a'} href={`mailto:${email}`}>
               {email}
               <br />
             </Text>

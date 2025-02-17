@@ -102,9 +102,9 @@ import {
         <Heading variant="headline">Team</Heading>
           <Container sx={{display:'flex'}}>
             
-                  <Grid columns={[1, 1]} gap={2} mb={2} mr={50}>
+                  <Grid columns={[1, 1]} gap={2} mb={2} mr={35}>
                     <Bio
-                      bgcolor='red'
+                      bgcolor='accent'
                       img="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
                       name="Arjav Jain"
                       teamRole="Tech Lead"
@@ -115,13 +115,13 @@ import {
                   </Grid>
             
             
-                  <Grid columns={[1,2]} gap={2} mb={2} mr={50}>
+                  <Grid columns={[1,2]} gap={2} mb={2} mr={35}>
                     <Bio
-                      bgcolor='red'
+                      bgcolor='accent'
                       img="https://cdn.hackclubber.dev/slackcdn/9cf6e20b90387adc81233745545a684d.jpg"
                       name="Anay Jain"
-                      teamRole="Event Coordinator"
-                      text="Anay is a 14 year old from Vidisha who loves to code. He is the event coordinator of Hack Club Vidisha. He is responsible for managing events and workshops and ensuring commutnity involvement."
+                      teamRole="Events Lead"
+                      text="Anay is a 14 year old from Vidisha who loves to code. He is the events Lead of Hack Club Vidisha. He is responsible for managing events and workshops and ensuring commutnity involvement."
                       pronouns="he/him"
                       email="anayjain1128@gmail.com"
                     />
