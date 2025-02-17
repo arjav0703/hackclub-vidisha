@@ -39,9 +39,9 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
         }}
       >
         <Avatar
-          size={64}
-          width={64}
-          height={64}
+          size={84}
+          width={84}
+          height={84}
           mr={4}
           src={img}
           alt={name}
@@ -51,8 +51,8 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
             transition: 'transform 0.125s ease-in-out',
             '&:hover': { transform: 'rotate(-8deg) scale(1.25)' },
             flexShrink: 0,
-            width: '64px',
-            height: '64px'
+            width: '84px',
+            height: '84px'
           }}
         />
         <Box>

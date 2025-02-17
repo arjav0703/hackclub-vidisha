@@ -5,6 +5,7 @@ import NextLink from 'next/link'
 import theme from '@hackclub/theme'
 
 
+
 const Base = styled(Box, { shouldForwardProp: prop => prop !== 'dark' })`
   background: ${props =>
     props.dark
@@ -45,6 +46,7 @@ const Service = ({ href, icon, name = '', ...props }) => (
     title={`Hack Club on ${name ? name : icon}`}
     {...props}
   >
+
     
   </Link>
 )
@@ -168,13 +170,7 @@ const Footer = ({
             />
             <Service href={`mailto:${email}`} icon="email-fill" name="Email" />
           </Grid>
-          <Text my={2}>
-            <Link href="tel:1-855-625-HACK">1-855-625-HACK</Link>
-            <br />
-            <Text as="span" color="muted">
-              (call toll-free)
-            </Text>
-          </Text>
+          
         </Box>
       </Grid>
       <Text as="p" variant="caption" sx={{ mt: 3 }}>
