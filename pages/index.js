@@ -105,7 +105,7 @@ import {
         >
           <Card
             sx={{
-              backgroundImage: t => t.util.gx('cyan', 'blue'),
+              backgroundImage: t => t.util.gx('purple', 'red'),
               color: 'white',
               transition: 'transform 0.2s',
               '&:hover': {
@@ -122,7 +122,7 @@ import {
           </Card>
           <Card
             sx={{
-              backgroundImage: t => t.util.gx('cyan', 'blue'),
+              backgroundImage: t => t.util.gx('red', 'orange'),
               color: 'white',
               transition: 'transform 0.2s',
               '&:hover': {
