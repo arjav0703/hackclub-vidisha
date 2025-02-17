@@ -61,42 +61,84 @@ import {
             </NavLink>
           </Grid>
         </Container>
-        </Box>
+      </Box>
 
-        <Flex
+      <Flex
         as="main"
-        sx={{ bg: 'background', color: 'accent', py: 4, h1: { mt: 4 } , flexWrap: 'wrap'}}
+        sx={{ bg: 'background', color: 'accent', py: 4, h1: { mt: 4 }, flexWrap: 'wrap' }}
       >
-          <Flex sx={{justifyContent: 'center', alignItems: 'center', flexGrow: 1}}>
+        <Flex sx={{ justifyContent: 'center', alignItems: 'center', flexGrow: 1 }}>
+          <Container>
+            <Heading variant="headline">What is Hackclub?</Heading>
+            <Card as="main" sx={{ p: 1, mt: 1, borderRadius: 'extra', bg: 'sheet' }}>
+              <Text variant='subtitle'>
+                Hack Club is a global network of programming clubs where members learn to code through tinkering and building projects. We have a strong community of students who help each other learn and grow.
+              </Text>
+            </Card>
+          </Container>
 
-            <Container>
-          <Heading variant="headline">What is Hackclub?</Heading>
+          <Container>
+            <Heading variant="headline">How can I join Hackclub?</Heading>
+            <Card as="main" sx={{ p: 1, mt: 1, borderRadius: 'extra', bg: 'sheet' }}>
+              <Text variant='subtitle'>
+                If you are a teenager below 18 years of age, you can fill the form at <Link href="https://hackclubvidisha.fillout.com/t/hvsp3Wgnqqus">here</Link>.
+              </Text>
+            </Card>
+          </Container>
+        </Flex>
+        <Container>
+          <Heading variant="headline">What if I do not know coding?</Heading>
           <Card as="main" sx={{ p: 1, mt: 1, borderRadius: 'extra', bg: 'sheet' }}>
-            <Text variant='subtitle' >
-              Hack Club is a global network of programming clubs where members learn to code through tinkering and building projects. We have a strong community of students who help each other learn and grow.
+            <Text variant='subtitle'>
+              It is completely fine if you are new to code. We have a lot of resources and a community that will help you learn to code. We have a lot of members who are new to coding and are learning to code.
             </Text>
           </Card>
         </Container>
+      </Flex>
 
-            <Container >
-              <Heading variant="headline">How can I join Hackclub?</Heading>
-              <Card as="main" sx={{ p: 1, mt: 1, borderRadius: 'extra', bg: 'sheet' }}>
-                <Text variant='subtitle' >
-                  If you are a teenager below 18 years of age, you can email us at <Link href="malito:arjavjain06">arjavjain0701@gmail.com</Link>.
-                </Text>
-              </Card>
-            </Container>
-          </Flex>
-        <Container> 
-              <Heading variant="headline">What if I do not know coding?</Heading>
-              <Card as="main" sx={{ p: 1, mt: 1, borderRadius: 'extra', bg: 'sheet' }}>
-                <Text variant='subtitle' >
-                  It is completely fine if you are new to code. We have a lot of resources and a community that will help you learn to code. We have a lot of members who are new to coding and are learning to code.
-                </Text>
-              </Card>
-            </Container>
-
-        </Flex>
+      <Container variant='wide'>
+        <Heading variant="headline">Team</Heading>
+        <Grid
+          columns={[null, 2, 3]}
+          gap={3}
+          sx={{ code: { mt: 1, ml: -1, fontSize: 0 } }}
+        >
+          <Card
+            sx={{
+              backgroundImage: t => t.util.gx('cyan', 'blue'),
+              color: 'white',
+              transition: 'transform 0.2s',
+              '&:hover': {
+                transform: 'scale(1.05)'
+              }
+            }}
+          >
+            <Heading variant="headline" as="h3" my={0}>
+              Arjav Jain
+            </Heading>
+            <Text variant="subtitle">
+              Tech lead <Link href="https://jain.arjav.tech">Contact</Link>
+            </Text>
+          </Card>
+          <Card
+            sx={{
+              backgroundImage: t => t.util.gx('cyan', 'blue'),
+              color: 'white',
+              transition: 'transform 0.2s',
+              '&:hover': {
+                transform: 'scale(1.05)'
+              }
+            }}
+          >
+            <Heading variant="headline" as="h3" my={0}>
+              Anay Jain
+            </Heading>
+            <Text variant="subtitle">
+              Tech lead <Link href="https://jain.arjav.tech">Contact</Link>
+            </Text>
+          </Card>
+        </Grid>
+      </Container>
     </>
   )
   
