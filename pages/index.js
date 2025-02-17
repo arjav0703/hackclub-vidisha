@@ -98,33 +98,34 @@ import {
 
 
 
-      <Container>
+      <Container >
         <Heading variant="headline">Team</Heading>
-
-          <Box sx={{ flexGrow: 1 }}>
-                <Grid columns={[1, null, 2]} gap={2} mb={2}>
-                  <Bio
-                    img="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
-                    name="Arjav Jain"
-                    teamRole="Tech Lead"
-                    text="Arjav is a 14 year old from Vidisha who loves to code. He is the tech lead of Hack Club Vidisha. He mostly works on web development and graphic designing."
-                    pronouns="he/him"
-                    email="arjavjain0703@gmail.com"
-                  />
-                </Grid>
-           </Box>
-           <Box sx={{ flexGrow: 1 }}>
-                <Grid columns={[1, null, 2]} gap={2} mb={2}>
-                  <Bio
-                    img="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
-                    name="Anay Jain"
-                    teamRole="Event Coordinator"
-                    text="Anay is a 13 year old from Vidisha who loves to code. He is the event coordinator of Hack Club Vidisha. He is responsible for managing events and workshops and ensuring commutnity involvement."
-                    pronouns="he/him"
-                    email="anayjain1128@gmail.com"
-                  />
-                </Grid>
-           </Box>
+          <Container sx={{display:'flex'}}>
+            <Box sx={{ flexGrow: 1 }}>
+                  <Grid columns={[1, null, 2]} gap={2} mb={2}>
+                    <Bio
+                      img="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
+                      name="Arjav Jain"
+                      teamRole="Tech Lead"
+                      text="Arjav is a 14 year old from Vidisha who loves to code. He is the tech lead of Hack Club Vidisha. He mostly works on web development and graphic designing."
+                      pronouns="he/him"
+                      email="arjavjain0703@gmail.com"
+                    />
+                  </Grid>
+            </Box>
+            <Box sx={{ flexGrow: 1 }}>
+                  <Grid columns={[1, null, 2]} gap={2} mb={2}>
+                    <Bio
+                      img="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
+                      name="Anay Jain"
+                      teamRole="Event Coordinator"
+                      text="Anay is a 13 year old from Vidisha who loves to code. He is the event coordinator of Hack Club Vidisha. He is responsible for managing events and workshops and ensuring commutnity involvement."
+                      pronouns="he/him"
+                      email="anayjain1128@gmail.com"
+                    />
+                  </Grid>
+            </Box>
+          </Container>
 
       </Container>
     </>
