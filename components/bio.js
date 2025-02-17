@@ -3,13 +3,13 @@ import { useState } from 'react'
 import { Avatar, Box, Card, Flex, Text } from 'theme-ui'
 
 export default function Bio({ popup = true, spanTwo = false, ...props }) {
-  let { img, name, teamRole, pronouns, text, subrole, email, href, video } =
+  let { bgcolor, img, name, teamRole, pronouns, text, subrole, email, href, video } =
     props
   const [expand, setExpand] = useState(false)
   return (
     <>
       <Card
-        bg="snow"
+        bg= {bgcolor}
         p={popup ? [2, 2, 2] : [3, 3, 3]}
         py={popup ? [3, 3, 3] : [4, 4, 4]}
         sx={{
@@ -61,7 +61,7 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
           <Flex>
             <Text>
               <Text
-                color="#24B5A5"
+                color="accent"
                 variant="subheadline"
                 fontSize={2}
                 sx={{
@@ -76,7 +76,7 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
                 <>
                   <br />
                   <Text
-                    color="#24B5A5"
+                    color="accent"
                     sx={{
                       mb: ['0px', '0px', '0px'],
                       fontSize: 1,
