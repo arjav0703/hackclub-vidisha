@@ -100,7 +100,7 @@ import {
 
       <Container >
         <Heading variant="headline">Team</Heading>
-          <Container sx={{display:'flex'}}>
+          <Container sx={{display:'flex', flexWrap: 'wrap'}}>
             
                   <Grid columns={[1, 1]} gap={2} mb={2} mr={35}>
                     <Bio
