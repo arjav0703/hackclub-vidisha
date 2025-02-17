@@ -29,13 +29,14 @@ import {
   
   const HomePage = () => (
     <>
-      <Head>
-        <title>Home</title>
-        <Meta
-          name="Home"
-          description="Hack Club Vidisha's home page"
-        />
-      </Head>
+      <Head><Meta
+          as={Head} // component to wrap tags in, defaults to React.Fragment
+          name="Hack Club" // site name
+          title="Home" // page title
+          description="Details about Hackclub Vidisha" // page description
+          image="https://hackathons.hackclub.com/card.png" // large summary image URL
+          color="#ec3750" // theme color
+          manifest="/site.webmanifest" /></Head>
       <Box as="header" sx={{ bg: 'sunken', color: 'text' }}>
         <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
           <ColorSwitcher />

@@ -52,6 +52,7 @@ const Service = ({ href, icon, name = '', ...props }) => (
 )
 
 const Footer = ({
+  
   dark = false,
   email = 'arjavjain0703@gmail.com',
   children,
@@ -102,6 +103,8 @@ const Footer = ({
             Donate
           </Link>
         </Box>
+        <text>Made with &#128157; by <Link href='https://jain.arjav.tech'>Arjav</Link>. <Link href='https://github.com/HackClub-Vidisha/alt-web/'>Source code</Link></text>
+
         <Box>
           <Heading as="h2" variant="subheadline" mb={3}>
             Resources
