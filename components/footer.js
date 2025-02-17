@@ -157,11 +157,6 @@ const Footer = ({
               name="Figma"
             />
             <Service
-              href="https://social.dino.icu/@hackclub"
-              icon="mastodon"
-              name="Mastodon"
-            />
-            <Service
               href="https://www.youtube.com/c/HackClubHQ"
               icon="youtube"
               name="YouTube"

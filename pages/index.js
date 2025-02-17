@@ -106,7 +106,7 @@ import {
             
                   <Grid columns={[1, 1]} gap={2} mb={2} mr={35}>
                     <Bio
-                      subrole='Event speaker'
+                      
                       bgcolor='#93c4eb'
                       img="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
                       name="Arjav Jain"
