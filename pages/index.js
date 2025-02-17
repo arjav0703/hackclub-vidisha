@@ -104,7 +104,7 @@ import {
             
                   <Grid columns={[1, 1]} gap={2} mb={2} mr={35}>
                     <Bio
-                      bgcolor='accent'
+                      bgcolor='#93c4eb'
                       img="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
                       name="Arjav Jain"
                       teamRole="Tech Lead"
@@ -117,7 +117,7 @@ import {
             
                   <Grid columns={[1,2]} gap={2} mb={2} mr={35}>
                     <Bio
-                      bgcolor='accent'
+                      bgcolor='#93c4eb'
                       img="https://cdn.hackclubber.dev/slackcdn/9cf6e20b90387adc81233745545a684d.jpg"
                       name="Anay Jain"
                       teamRole="Events Lead"

@@ -61,7 +61,7 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
           <Flex>
             <Text>
               <Text
-                color="#f94343"
+                color="primary"
                 variant="subheadline"
                 fontSize={2}
                 sx={{
@@ -76,7 +76,7 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
                 <>
                   <br />
                   <Text
-                    color="#f94343"
+                    color="primary"
                     sx={{
                       mb: ['0px', '0px', '0px'],
                       fontSize: 1,
