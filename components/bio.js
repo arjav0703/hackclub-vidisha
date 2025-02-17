@@ -10,7 +10,8 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
     <>
       <Card
         bg= {bgcolor}
-        p={popup ? [2, 2, 2] : [3, 3, 3]}
+        p={popup ? [3, 3, 3] : [3, 3, 3]}
+        px={popup ? [4, 4, 4] : [5, 5, 5]}
         py={popup ? [3, 3, 3] : [4, 4, 4]}
         sx={{
           display: 'flex',
@@ -41,7 +42,7 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
           size={64}
           width={64}
           height={64}
-          mr={3}
+          mr={4}
           src={img}
           alt={name}
           sx={{
@@ -55,7 +56,7 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
           }}
         />
         <Box>
-          <Text sx={{ fontSize: [3, 3, 3] }} variant="headline" color="black">
+          <Text sx={{ fontSize: [4, 4, 4] }} variant="headline" color="black">
             {name}
           </Text>
           <Flex>
@@ -63,7 +64,7 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
               <Text
                 color="primary"
                 variant="subheadline"
-                fontSize={2}
+                fontSize={3}
                 sx={{
                   mb: ['0px', '0px', '0px'],
                   fontSize: '1.1em',

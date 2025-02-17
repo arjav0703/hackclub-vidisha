@@ -53,8 +53,8 @@ import {
               a: { color: 'muted', transition: 'color .125s ease-in-out' }
             }}
           >
-            <NavLink href="https://github.com/HackClub-Vidisha/">GitHub</NavLink>
-            <NavLink href="#members">
+            <NavLink href="https://github.com/HackClub-Vidisha/">Github</NavLink>
+            <NavLink href="#team">
               Members
             </NavLink>
             <NavLink href="https://instagram.com/hackclubvidisha">
@@ -104,11 +104,12 @@ import {
             
                   <Grid columns={[1, 1]} gap={2} mb={2} mr={35}>
                     <Bio
+                      subrole='Event speaker'
                       bgcolor='#93c4eb'
                       img="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
                       name="Arjav Jain"
                       teamRole="Tech Lead"
-                      text="Arjav is a 14 year old from Vidisha who loves to code. He is the tech lead of Hack Club Vidisha. He mostly works on web development and graphic designing."
+                      text="Arjav is a 14 year old from Vidisha who loves to code. He really doesn't have a fav language and is willing to learn almost everything from 3D modelling to functional programming and linux. At Hackclub Vidisha, he is responsible for managing the website, and all other digital workflows, forms etc. He also conducts workshops."
                       pronouns="he/him"
                       email="arjavjain0703@gmail.com"
                     />
@@ -121,7 +122,7 @@ import {
                       img="https://cdn.hackclubber.dev/slackcdn/9cf6e20b90387adc81233745545a684d.jpg"
                       name="Anay Jain"
                       teamRole="Events Lead"
-                      text="Anay is a 14 year old from Vidisha who loves to code. He is the events Lead of Hack Club Vidisha. He is responsible for managing events and workshops and ensuring commutnity involvement."
+                      text="Anay is a 14 year old from Vidisha. He is the events Lead of Hack Club Vidisha. He is responsible for managing events and workshops and ensuring community involvement."
                       pronouns="he/him"
                       email="anayjain1128@gmail.com"
                     />
