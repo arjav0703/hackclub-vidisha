@@ -96,7 +96,9 @@ import {
         </Container>
       </Flex>
 
-      <Container variant='wide'>
+
+
+      <Container>
         <Heading variant="headline">Team</Heading>
         <Grid
           columns={[null, 2, 3]}
@@ -105,7 +107,7 @@ import {
         >
           <Card
             sx={{
-              backgroundImage: t => t.util.gx('purple', 'red'),
+              backgroundImage: t => t.util.gx('#FF83EC', '#0043EC'),
               color: 'white',
               transition: 'transform 0.2s',
               '&:hover': {
@@ -122,7 +124,7 @@ import {
           </Card>
           <Card
             sx={{
-              backgroundImage: t => t.util.gx('red', 'orange'),
+              backgroundImage: t => t.util.gx('red', 'yellow'),
               color: 'white',
               transition: 'transform 0.2s',
               '&:hover': {
@@ -134,7 +136,7 @@ import {
               Anay Jain
             </Heading>
             <Text variant="subtitle">
-              Tech lead <Link href="https://jain.arjav.tech">Contact</Link>
+              Event Coordinator <Link href="malito:anayjain1128@gmail.com">Contact</Link>
             </Text>
           </Card>
         </Grid>
