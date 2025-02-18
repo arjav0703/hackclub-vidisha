@@ -1,6 +1,7 @@
 
 import { useState } from 'react'
 import { Avatar, Box, Card, Flex, Text } from 'theme-ui'
+import Icon from './icon'
 
 export default function Bio({ popup = true, spanTwo = false, ...props }) {
   let { bgcolor, img, name, teamRole, pronouns, text, subrole, email, href, video } =
@@ -56,8 +57,9 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
           }}
         />
         <Box>
+        
           <Text sx={{ fontSize: [4, 4, 4] }} variant="headline" color="black">
-            {name}
+          <Icon glyph={'bolt'} />{name}
           </Text>
           <Flex>
             <Text>
@@ -70,7 +72,7 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
                   fontSize: '1.1em',
                   width: 'fit-content'
                 }}
-              >
+              >  
                 {teamRole}
               </Text>
               {subrole && (

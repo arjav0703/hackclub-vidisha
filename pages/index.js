@@ -40,7 +40,8 @@ import {
           description="Details about Hackclub Vidisha" // page description
           image="https://hackathons.hackclub.com/card.png" // large summary image URL
           color="#ec3750" // theme color
-          manifest="/site.webmanifest" /></Head>
+          manifest="/site.webmanifest" />
+      </Head>
       <Box as="header" sx={{ bg: 'sunken', color: 'text' }}>
         <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
           <ColorSwitcher />
@@ -106,7 +107,7 @@ import {
             
                   <Grid columns={[1, 1]} gap={2} mb={2} mr={35}>
                     <Bio
-                      
+                      href="https://jain.arjav.tech"
                       bgcolor='#93c4eb'
                       img="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
                       name="Arjav Jain"
