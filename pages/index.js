@@ -69,11 +69,12 @@ import {
       </Box>
 
       <Container sx={{my: 5}} variant='wide'>
-        <Flex  sx={{alignItems: 'center'}}>
-          <Text variant='title' color='yellow'>Start Building Now </Text>
+        <Flex sx={{alignItems: 'center', flexWrap: 'wrap'}}>
+          <Text variant='title' color='yellow'>Start Building. Now. </Text>
           <Container variant='copy'>
             <Card variant='interactive' 
               sx={{
+                my: 3,
                 backgroundImage: t => t.util.gx('#ff930f', '#fff95b'),
                 color: 'white'
               }}>
@@ -84,11 +85,12 @@ import {
       </Container>
 
       <Container sx={{my: 5}} variant='wide'>
-        <Flex  sx={{alignItems: 'center'}}>
-          <Text variant='title' color='cyan'>Learn as you build.</Text>
+        <Flex sx={{alignItems: 'center', flexWrap: 'wrap'}}>
+          <Text variant='title' color='cyan'>Learn as you build !!</Text>
           <Container variant='copy'>
             <Card variant='interactive' 
               sx={{
+                my: 3,
                 backgroundImage: t => t.util.gx('#919bff', '#133a94'),
                 color: 'white'
               }}>
