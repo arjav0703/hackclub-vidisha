@@ -42,11 +42,12 @@ import {
           color="#ec3750" // theme color
           manifest="/site.webmanifest" />
       </Head>
+      
       <Box as="header" sx={{ bg: 'sunken', color: 'text' }}>
         <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
           <ColorSwitcher />
           <Heading as="h1" variant="title" color="red">
-            Hack Club Vidisha
+          Hack Club Vidisha
           </Heading>
           <Grid
             gap={4}
@@ -66,6 +67,36 @@ import {
           </Grid>
         </Container>
       </Box>
+
+      <Container sx={{my: 5}} variant='wide'>
+        <Flex  sx={{alignItems: 'center'}}>
+          <Text variant='title' color='yellow'>Start Building Now </Text>
+          <Container variant='copy'>
+            <Card variant='interactive' 
+              sx={{
+                backgroundImage: t => t.util.gx('#ff930f', '#fff95b'),
+                color: 'white'
+              }}>
+              <Text variant='subtitle'  color='black'>Most coding classes teach you programming concepts instead of how to write real code—it’s like trying to learn carpentry without any wood. So at Hack Club, you learn to code entirely through building things. You start with no experience and build and ship a project every meeting.</Text>
+            </Card>
+          </Container>
+        </Flex>
+      </Container>
+
+      <Container sx={{my: 5}} variant='wide'>
+        <Flex  sx={{alignItems: 'center'}}>
+          <Text variant='title' color='cyan'>Learn as you build.</Text>
+          <Container variant='copy'>
+            <Card variant='interactive' 
+              sx={{
+                backgroundImage: t => t.util.gx('#919bff', '#133a94'),
+                color: 'white'
+              }}>
+              <Text variant='subtitle'  color='snow'>Just as the best carpenters didn’t learn in the classroom, neither did the best programmers. Through our <Link href=''>workshops</Link>, you’ll be walked through building projects. Starting out, you won’t understand how the code works, but you’ll build understanding as you go. You’ll get stuck along the way, but we’re here to help.</Text>
+            </Card>
+          </Container>
+        </Flex>
+      </Container>
 
       <Flex
         as="main"
