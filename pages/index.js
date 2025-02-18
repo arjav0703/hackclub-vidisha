@@ -78,7 +78,7 @@ const Super = styled(Text)`
       <Box as="header" sx={{ bg: 'sunken', color: 'text' }}>
         <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
         <Link href='https:hackclub.com'>
-          <img src="https://assets.hackclub.com/flag-orpheus-left.svg" alt="Hack Club Flag" style={{ position: 'fixed', top: 0, left: 0, width: '200px', height: '160px' }} />
+          <img src="https://assets.hackclub.com/flag-orpheus-left.svg" alt="Hack Club Flag" style={{ position: 'fixed', top: 0, left: 0, width: '256px' }} />
         </Link>
           <ColorSwitcher />
           <Heading as="h1" variant="title" color="red">
