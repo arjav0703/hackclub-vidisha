@@ -4,7 +4,7 @@ import { Box, Container, Image, Grid, Heading, Link, Text } from 'theme-ui'
 import NextLink from 'next/link'
 import theme from '@hackclub/theme'
 import  Icon  from './icon'
-
+import { mode } from './color-switcher'
 
 const Base = styled(Box, { shouldForwardProp: prop => prop !== 'dark' })`
   background: ${props =>
@@ -54,6 +54,7 @@ const Service = ({ href, icon, name = '', ...props }) => (
 const Footer = ({
   
   dark = true,
+  
   
   children,
   ...props
