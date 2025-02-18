@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import { Box, Container, Image, Grid, Heading, Link, Text } from 'theme-ui'
 import NextLink from 'next/link'
 import theme from '@hackclub/theme'
-
+import  Icon  from './icon'
 
 
 const Base = styled(Box, { shouldForwardProp: prop => prop !== 'dark' })`
@@ -46,7 +46,7 @@ const Service = ({ href, icon, name = '', ...props }) => (
     title={`Hack Club on ${name ? name : icon}`}
     {...props}
   >
-
+    <Icon glyph={icon} />
     
   </Link>
 )

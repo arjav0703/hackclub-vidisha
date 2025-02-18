@@ -25,6 +25,7 @@ import {
   import ColorSwitcher from '../components/color-switcher'
   import Bio from '../components/bio'
   import Footer from '../components/footer'
+  import Icon from '@hackclub/icons'
 
   
   const HomePage = () => (
