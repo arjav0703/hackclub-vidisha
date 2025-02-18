@@ -55,10 +55,10 @@ import {
               mb: 4,
               a: { color: 'muted', transition: 'color .125s ease-in-out' }
             }}
-          >
-            <NavLink href="https://github.com/HackClub-Vidisha/">Github</NavLink>
-            <NavLink href="https://hack.club/0z65uj">Discord</NavLink>
-            <NavLink href="https://instagram.com/hackclubvidisha">Instagram</NavLink>
+          > 
+            <Button as="a" href="https://github.com/orgs/HackClub-Vidisha/repositories" variant="outline">GitHub</Button>
+            <Button as="a" href="https://hack.club/0z65uj" variant="outline">Discord</Button>
+            <Button as="a" href="https://instagram.com/hackclubvidisha" variant="outline">Instagram</Button>
           </Grid>
         </Container>
       </Box>
