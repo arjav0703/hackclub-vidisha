@@ -57,12 +57,8 @@ import {
             }}
           >
             <NavLink href="https://github.com/HackClub-Vidisha/">Github</NavLink>
-            <NavLink href="#team">
-              Members
-            </NavLink>
-            <NavLink href="https://instagram.com/hackclubvidisha">
-              Instagram
-            </NavLink>
+            <NavLink href="https://hack.club/0z65uj">Discord</NavLink>
+            <NavLink href="https://instagram.com/hackclubvidisha">Instagram</NavLink>
           </Grid>
         </Container>
       </Box>

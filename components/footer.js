@@ -53,8 +53,8 @@ const Service = ({ href, icon, name = '', ...props }) => (
 
 const Footer = ({
   
-  dark = false,
-  email = 'arjavjain0703@gmail.com',
+  dark = true,
+  
   children,
   ...props
 }) => (
@@ -143,11 +143,7 @@ const Footer = ({
               name="Slack"
               target="_self"
             />
-            <Service
-              href="https://twitter.com/hackclub"
-              icon="twitter"
-              name="Twitter"
-            />
+
             <Service
               href="https://github.com/hackclub"
               icon="github"
@@ -168,7 +164,7 @@ const Footer = ({
               icon="instagram"
               name="Instagram"
             />
-            <Service href={`mailto:${email}`} icon="email-fill" name="Email" />
+            
           </Grid>
           
         </Box>
