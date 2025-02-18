@@ -26,6 +26,9 @@ import {
   import Bio from '../components/bio'
   import Footer from '../components/footer'
   import Icon from '@hackclub/icons'
+  // Next.js allows fast development of static sites with server-side rendering
+  
+  // Fast development my ass!
 
   
   const HomePage = () => (
