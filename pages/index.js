@@ -27,6 +27,9 @@ import {
   import Footer from '../components/footer'
   import styled from '@emotion/styled'
   import Icon from '@hackclub/icons'
+  import Flag from '../components/flag'
+  
+  import React from 'react'
   // Next.js allows fast development of static sites with server-side rendering
   
   // Fast development my ass!
@@ -61,6 +64,7 @@ const Super = styled(Text)`
   
   const HomePage = () => (
     <>
+
       <Head><Meta
           as={Head} // component to wrap tags in, defaults to React.Fragment
           name="Hack Club" // site name
@@ -73,6 +77,9 @@ const Super = styled(Text)`
       
       <Box as="header" sx={{ bg: 'sunken', color: 'text' }}>
         <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
+        <Link href='https:hackclub.com'>
+          <img src="https://assets.hackclub.com/flag-orpheus-left.svg" alt="Hack Club Flag" style={{ position: 'fixed', top: 0, left: 0, width: '200px', height: '160px' }} />
+        </Link>
           <ColorSwitcher />
           <Heading as="h1" variant="title" color="red">
           Hack Club Vidisha
@@ -95,8 +102,7 @@ const Super = styled(Text)`
           </Grid>
         </Container>
       </Box>
-
-
+      
       <Container sx={{my: 5}} variant='wide'>
         <Flex sx={{alignItems: 'center', flexWrap: 'wrap'}}>
         <Text variant='title' color='orange'>Coding is a <Super>superpower</Super></Text>
