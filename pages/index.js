@@ -197,7 +197,7 @@ const Super = styled(Text)`
                       name="Arjav Jain"
                       teamRole="Tech Lead"
                       text="Arjav is a 14 year old from Vidisha who loves to code. He really doesn't have a fav language and is willing to learn almost everything from 3D modelling to functional programming and linux. At Hackclub Vidisha, he is responsible for managing the website, and all other digital workflows, forms etc. He also conducts workshops."
-                      pronouns="he/him"
+                      pronouns="he/they"
                       email="arjavjain0703@gmail.com"
                     />
                   </Grid>

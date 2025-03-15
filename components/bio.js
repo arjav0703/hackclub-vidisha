@@ -59,7 +59,7 @@ export default function Bio({ popup = true, spanTwo = false, ...props }) {
         <Box>
         
           <Text sx={{ fontSize: [4, 4, 4] }} variant="headline" color="black">
-          <Icon glyph={'bolt'} />{name}
+          {name}
           </Text>
           <Flex>
             <Text>
