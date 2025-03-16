@@ -27,12 +27,12 @@ import React from 'react'
 
 const BobaProjects = [
   {
-    name: '"Arjav"',
+    name: 'Arjav',
     code: 'https://github.com/arjav0703/boba',
     demo: 'https://arjav0703.github.io/boba/'
   },
   {
-    name: '"Anay"',
+    name: 'Anay',
     code: 'https://github.com/Anayjain1129/BOBA',
     demo: 'https://anayjain1129.github.io/BOBA/'
   }
@@ -62,25 +62,29 @@ const ProjectPage = () => (
       </Container>
     </Box>
 
-    <Container variant="copy" sx={{ p:20}}>
-      {BobaProjects.map(project => (
-        
-        <pre key={project.name} sx={{ p: 3, my: 3 }}>
-          <code>
-            {project.name}
-            <br/>
-            <a href={project.demo}>
-              <code>'Demo'</code>
-            :
-            </a>
-            <a href={project.code}>
-              <code>'Source'</code>
-            </a>
+    <Box sx={{color: 'snow', py:4}}>
+      <Container variant="copy" sx={{ p:20}}>
+        {BobaProjects.map(project => (
+          
+          <pre key={project.name} sx={{ p: 3, my: 3 }}>
+            
+            <code>
+            name :  
+              "{project.name}"
+              <br/>
+              <a href={project.demo}>
+                <code>'Demo'</code>
+              :
+              </a>
+              <a href={project.code}>
+                <code>'Source'</code>
+              </a>
 
-          </code>
-        </pre>
-      ))}
-    </Container>
+            </code>
+          </pre>
+        ))}
+      </Container>
+    </Box>
   </>
 )
 
