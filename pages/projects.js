@@ -50,8 +50,8 @@ const ProjectPage = () => (
       </Container>
     </Box>
 
-    <Box sx={{color: 'snow', py:4}}>
-      <Container variant="copy" sx={{ p:20}}>
+    
+      <Container variant="copy" sx={{ my:20, p:10, backgroundImage: t => t.util.gx('cyan', 'blue'), borderRadius:20}}>
         {BobaProjects.map(project => (
           
           <pre key={project.name} sx={{ p: 3, my: 3 }}>
@@ -72,7 +72,7 @@ const ProjectPage = () => (
           </pre>
         ))}
       </Container>
-    </Box>
+    
   </>
 )
 
