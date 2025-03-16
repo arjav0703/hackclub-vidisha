@@ -25,19 +25,7 @@ import Meta from '@hackclub/meta'
 
 import React from 'react'
 
-const BobaProjects = [
-  {
-    name: 'Arjav',
-    code: 'https://github.com/arjav0703/boba',
-    demo: 'https://arjav0703.github.io/boba/'
-  },
-  {
-    name: 'Anay',
-    code: 'https://github.com/Anayjain1129/BOBA',
-    demo: 'https://anayjain1129.github.io/BOBA/'
-  }
-
-]
+import BobaProjects from '../lib/projects'
 
 const ProjectPage = () => (
   <>
@@ -62,8 +50,8 @@ const ProjectPage = () => (
       </Container>
     </Box>
 
-    <Box sx={{color: 'snow', py:4}}>
-      <Container variant="copy" sx={{ p:20}}>
+    
+      <Container variant="copy" sx={{ my:20, p:10, backgroundImage: t => t.util.gx('cyan', 'blue'), borderRadius:20}}>
         {BobaProjects.map(project => (
           
           <pre key={project.name} sx={{ p: 3, my: 3 }}>
@@ -84,7 +72,7 @@ const ProjectPage = () => (
           </pre>
         ))}
       </Container>
-    </Box>
+    
   </>
 )
 
