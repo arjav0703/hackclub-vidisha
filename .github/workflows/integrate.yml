@@ -2,7 +2,7 @@ name: PR review
 
 on:
   pull_request:
-  branches: [ main ]
+    branches: [ main ]
 
 jobs: 
   test_pull_request:
@@ -15,3 +15,4 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+
