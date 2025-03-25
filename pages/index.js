@@ -76,6 +76,7 @@ const HomePage = () => (
         image="https://hackathons.hackclub.com/card.png" // large summary image URL
         color="#ec3750" // theme color
         manifest="/site.webmanifest" />
+        <meta name="google-site-verification" content="hThcfgfWeBT7H0Qp2yp934ergwCeAWIq8y9y9gIXqE8" />
     </Head>
     
     <Box as="header" sx={{ bg: 'sunken', color: 'text' }}>
