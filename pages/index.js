@@ -221,7 +221,7 @@ const HomePage = () => (
                   <Bio
                     href="https://arjav.dino.icu"
                     bgcolor='#93c4eb'
-                    img="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
+                    img="https://hc-cdn.hel1.your-objectstorage.com/s/v3/b3f553c881b046790aa7e6846e34fbcddeb3d082_chatgpt_image_mar_30__2025__01_15_33_pm_1_.png"
                     name="Arjav Jain"
                     teamRole="Tech Lead"
                     text="Arjav is a 14 year old from Vidisha who loves to code. He really doesn't have a fav language and is willing to learn almost everything from 3D modelling to functional programming and linux. At Hackclub Vidisha, he is responsible for managing the website, and all other digital workflows, forms etc. He also conducts workshops."
