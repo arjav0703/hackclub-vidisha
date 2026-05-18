@@ -22,7 +22,7 @@ export default function CampPage() {
 
       <Box as="header" sx={{ bg: 'sunken', color: 'text' }}>
         <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
-          <Link href="https://hackclub.com">
+          <Link href="/">
             <img
               src="https://assets.hackclub.com/flag-orpheus-left.svg"
               alt="Hack Club Flag"
