@@ -139,7 +139,7 @@ const Footer = ({
             }}
           >
             <Service
-              href="/slack"
+              href="https://slack.hackclub.com/"
               icon="slack-fill"
               name="Slack"
               target="_self"
