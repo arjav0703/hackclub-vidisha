@@ -69,6 +69,7 @@ const HomePage = () => (
         color="#ec3750" // theme color
         manifest="/site.webmanifest"
       />
+      <link rel="icon" href="/icon.jpg" />
       <meta
         name="google-site-verification"
         content="hThcfgfWeBT7H0Qp2yp934ergwCeAWIq8y9y9gIXqE8"
@@ -89,7 +90,7 @@ const HomePage = () => (
           Hack Club Vidisha
         </Heading>
         <Grid
-          gap={4}
+          gap={3}
           columns="auto auto auto"
           sx={{
             alignItems: 'center',
