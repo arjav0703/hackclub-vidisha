@@ -85,7 +85,7 @@ const HomePage = () => (
           />
         </Link>
         <ColorSwitcher />
-        <Heading as="h1" variant="title" color="red">
+        <Heading as="h1" variant="ultratitle" color="red">
           Hack Club Vidisha
         </Heading>
         <Grid
@@ -118,6 +118,13 @@ const HomePage = () => (
             Instagram
           </Button>
         </Grid>
+        <Button
+        as="a"
+        href="https://hack.club/0z65uj"
+        variant="lg"
+        >
+          Join Us
+        </Button>
       </Container>
     </Box>
     
