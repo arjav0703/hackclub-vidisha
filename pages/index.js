@@ -27,6 +27,7 @@ import Bio from '../components/bio'
 import Footer from '../components/footer'
 import styled from '@emotion/styled'
 import Icon from '@hackclub/icons'
+import UpcomingEvents, { PastEvents } from '../components/events'
 import Flag from '../components/flag'
 
 import React from 'react'
@@ -125,7 +126,9 @@ const HomePage = () => (
         </Grid>
       </Container>
     </Box>
-
+    
+    <UpcomingEvents/>
+     
     <Container sx={{ my: 5 }} variant="wide">
       <Flex sx={{ alignItems: 'center', flexWrap: 'wrap' }}>
         <Text variant="title" color="orange">
@@ -176,33 +179,6 @@ const HomePage = () => (
       </Flex>
     </Container>
 
-    <Container sx={{ my: 5 }} variant="wide">
-      <Flex sx={{ alignItems: 'center', flexWrap: 'wrap' }}>
-        <Text variant="title" color="cyan">
-          Learn as you build !!
-        </Text>
-        <Container variant="copy">
-          <Card
-            variant="interactive"
-            sx={{
-              my: 3,
-              backgroundImage: t => t.util.gx('#919bff', '#133a94'),
-              color: 'white'
-            }}
-          >
-            <Text variant="subtitle" color="snow">
-              Just as the best carpenters didn’t learn in the classroom, neither
-              did the best programmers. Through our{' '}
-              <Link href="">workshops</Link>, you’ll be walked through building
-              projects. Starting out, you won’t understand how the code works,
-              but you’ll build understanding as you go. You’ll get stuck along
-              the way, but we’re here to help.
-            </Text>
-          </Card>
-        </Container>
-      </Flex>
-    </Container>
-
     <Flex
       as="main"
       sx={{
@@ -234,9 +210,9 @@ const HomePage = () => (
           sx={{ p: 4, mt: 1, borderRadius: 'extra', bg: 'sheet' }}
         >
           <Text variant="subtitle">
-            If you are a teenager below 18 years of age, you can fill the{' '}
-            <Link href="https://hackclubvidisha.fillout.com/t/hvsp3Wgnqqus">
-              Signup form
+            If you are a teenager below 18 years of age, you can sign up{' '}
+            <Link href="https://hack.club/join/UPVJZG">
+              here
             </Link>
             .
           </Text>
@@ -258,28 +234,7 @@ const HomePage = () => (
       </Container>
     </Flex>
 
-    <Container sx={{ my: 5, color: 'smoke' }} variant="copy">
-      <Text variant="title">
-        <Icon glyph="event-code" size={50} /> Past Events
-      </Text>
-      <Card
-        sx={{
-          mt: 3,
-          bgcolor: 'elevated',
-          color: 'secondary'
-        }}
-      >
-        <Heading variant="headline" as="h3" my={0}>
-          Boba Workshop
-        </Heading>
-        <Text variant="subtitle">
-          <Icon glyph="clock" size={24} sx={{ pt: 100 }} />
-          4-6 PM, March 7 <br />
-          Learn how to build HTML and CSS website. <br />
-          <Icon glyph="food" /> Get free Cold Coffee and Pizza <br />
-        </Text>
-      </Card>
-    </Container>
+    <PastEvents />
 
     <Container>
       <Heading variant="headline">Team</Heading>
@@ -312,7 +267,7 @@ const HomePage = () => (
       </Container>
     </Container>
 
-    <Footer></Footer>
+    <Footer/>
   </>
 )
 
