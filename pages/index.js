@@ -288,11 +288,11 @@ const HomePage = () => (
           <Bio
             href="https://arjav.dino.icu"
             bgcolor="#93c4eb"
-            img="https://hc-cdn.hel1.your-objectstorage.com/s/v3/b3f553c881b046790aa7e6846e34fbcddeb3d082_chatgpt_image_mar_30__2025__01_15_33_pm_1_.png"
+            img="https://user-cdn.hackclub-assets.com/019d8088-e1b7-7f91-8f7e-fff20bca0b50/IMG_4885.jpeg"
             name="Arjav Jain"
             teamRole="Tech Lead"
-            text="Arjav is a 15 year old from Vidisha who loves to code. He really doesn't have a fav language and is willing to learn almost everything from 3D modelling to functional programming and linux. At Hackclub Vidisha, he is responsible for managing the website, and all other digital workflows, forms etc. He also conducts workshops."
-            pronouns="he/him"
+            text="Arjav is a 16 year old from Vidisha who loves to code. At Hackclub Vidisha, they are responsible for managing the website, and all other digital workflows, forms etc. They also conduct workshops."
+            pronouns="he/they"
             email="arjavjain0703@gmail.com"
           />
         </Grid>
@@ -304,7 +304,7 @@ const HomePage = () => (
             img="https://cdn.hackclubber.dev/slackcdn/9cf6e20b90387adc81233745545a684d.jpg"
             name="Anay Jain"
             teamRole="Events Lead"
-            text="Anay is a 14 year old from Vidisha. He is the events Lead of Hack Club Vidisha. He is responsible for managing events and workshops and ensuring community involvement."
+            text="Anay is a 15 year old from Vidisha. He is the events Lead of Hack Club Vidisha. He is responsible for managing events and workshops and ensuring community involvement."
             pronouns="he/him"
             email="anayjain1128@gmail.com"
           />
