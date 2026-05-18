@@ -182,6 +182,7 @@ const team = [
     name: 'Aviral Sen',
     role: 'Volunteer - Workshop Assistant',
     bgcolor: '#138dff',
-    image: ''
+    image:
+      'https://images-ext-1.discordapp.net/external/fnPwNFnVFvB32Qp7_UuepOOEvXzaZwnjeN9Cqj9a4wQ/https/cdn.hackclub.com/019e3bf6-15fd-7bc5-a5fe-091cd757a967/image.png?format=webp&quality=lossless&width=1880&height=1880'
   }
 ]
