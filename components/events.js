@@ -82,6 +82,24 @@ export function PastEvents() {
           <Icon glyph="food" /> Get free Cold Coffee and Pizza <br />
         </Text>
       </Card>
+      <Card
+        variant="interactive"
+        sx={{
+          mt: 3,
+          bgcolor: 'elevated',
+          color: 'secondary'
+        }}
+      >
+        <Heading variant="headline" as="h3" my={0}>
+          Blurprint Workshop
+        </Heading>
+        <Text variant="subtitle">
+          <Icon glyph="clock" size={24} sx={{ pt: 100 }} />
+          November 2025 <br />
+          Make your own macropad with PCB design and 3D modelling <br />
+          <Icon glyph="food" /> Free food :P <br />
+        </Text>
+      </Card>
     </Container>
   )
 }
