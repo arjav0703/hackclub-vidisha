@@ -176,7 +176,7 @@ const team = [
     role: 'Mentor - 3D Modeling and Electric Circuits',
     bgcolor: '#a9f749',
     image:
-      'https://cdn.hackclubber.dev/slackcdn/9cf6e20b90387adc81233745545a684d.jpg'
+      'https://cdn.hackclub.com/019e3bef-daf4-7375-b571-32e8ce0ddee9/image.png'
   },
   {
     name: 'Aviral Sen',

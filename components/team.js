@@ -23,7 +23,7 @@ export default function Team() {
           <Bio
             bgcolor="#93c4eb"
             href="https://github.com/Anayjain1129"
-            img="https://cdn.hackclubber.dev/slackcdn/9cf6e20b90387adc81233745545a684d.jpg"
+            img="https://cdn.hackclub.com/019e3bef-daf4-7375-b571-32e8ce0ddee9/image.png"
             name="Anay Jain"
             teamRole="Events Lead"
             text="Anay is a 15 year old from Vidisha. He is the events Lead of Hack Club Vidisha. He is responsible for managing events and workshops and ensuring community involvement."
