@@ -26,7 +26,7 @@ export default function Team() {
             img="https://cdn.hackclub.com/019e3bef-daf4-7375-b571-32e8ce0ddee9/image.png"
             name="Anay Jain"
             teamRole="Events Lead"
-            text="Anay is a 15 year old from Vidisha. He is the events Lead of Hack Club Vidisha. He is responsible for managing events and workshops and ensuring community involvement."
+            text="Anay is a 15 year old from Vidisha. His expertise lies in 3D modelling and PCB design. At Hackclub Vidisha, he is responsible for planning and managing events, workshops and other activities."
             pronouns="he/him"
             email="anayjain1128@gmail.com"
           />
