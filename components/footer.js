@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import { Box, Container, Image, Grid, Heading, Link, Text } from 'theme-ui'
 import NextLink from 'next/link'
 import theme from '@hackclub/theme'
-import  Icon  from './icon'
+import Icon from './icon'
 import { mode } from './color-switcher'
 
 const Base = styled(Box, { shouldForwardProp: prop => prop !== 'dark' })`
@@ -47,15 +47,12 @@ const Service = ({ href, icon, name = '', ...props }) => (
     {...props}
   >
     <Icon glyph={icon} />
-    
   </Link>
 )
 
 const Footer = ({
-  
   dark = true,
-  
-  
+
   children,
   ...props
 }) => (
@@ -94,19 +91,20 @@ const Footer = ({
           <Heading as="h2" variant="subheadline" mb={3}>
             Hack&nbsp;Club
           </Heading>
-          <Link href="https://hackclub.com/philosophy" >
-            Philosophy
-          </Link>
-          <Link href="https://www.figma.com/design/6CtqRxtPd0fJLnqGN2otEx/Hack-Club-Branding-2020-(Community)?node-id=0-1&t=oXbxdToO5xuzAdoh-1" >
+          <Link href="https://hackclub.com/philosophy">Philosophy</Link>
+          <Link href="https://www.figma.com/design/6CtqRxtPd0fJLnqGN2otEx/Hack-Club-Branding-2020-(Community)?node-id=0-1&t=oXbxdToO5xuzAdoh-1">
             Figma Designs
           </Link>
-          <Link href="https://hackclub.com/philanthropy" >
-            Donate
-          </Link>
+          <Link href="https://hackclub.com/philanthropy">Donate</Link>
         </Box>
-        <text>Made with &#128157; by <Link href='https://github.com/arjav0703'>Arjav</Link> 
-        <br></br>
-        <Link href='https://github.com/HackClub-Vidisha/site/'>Source code</Link></text>
+        <text>
+          Made with &#128157; by{' '}
+          <Link href="https://github.com/arjav0703">Arjav</Link>
+          <br></br>
+          <Link href="https://github.com/HackClub-Vidisha/site/">
+            Source code
+          </Link>
+        </text>
 
         <Box>
           <Heading as="h2" variant="subheadline" mb={3}>
@@ -165,9 +163,7 @@ const Footer = ({
               icon="instagram"
               name="Instagram"
             />
-            
           </Grid>
-          
         </Box>
       </Grid>
       <Text as="p" variant="caption" sx={{ mt: 3 }}>

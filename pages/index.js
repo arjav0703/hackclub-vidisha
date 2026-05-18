@@ -55,7 +55,6 @@ const Row = styled(Container)`
 
 Row.defaultProps = { sx: { px: 3, py: [3, 4], color: 'black' } }
 
-
 const HomePage = () => (
   <>
     <Head>
@@ -119,27 +118,23 @@ const HomePage = () => (
             Instagram
           </Button>
         </Grid>
-        <Button
-        as="a"
-        href="https://hack.club/0z65uj"
-        variant="lg"
-        >
+        <Button as="a" href="https://hack.club/0z65uj" variant="lg">
           Join Us
         </Button>
       </Container>
     </Box>
-    
-    <UpcomingEvents/>
-     
-    <Hero/>
 
-    <Faq/>
+    <UpcomingEvents />
+
+    <Hero />
+
+    <Faq />
 
     <PastEvents />
 
-    <Team/>
+    <Team />
 
-    <Footer/>
+    <Footer />
   </>
 )
 

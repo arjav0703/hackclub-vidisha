@@ -1,9 +1,8 @@
-import { Card, Container, Flex, Heading, Link , Text} from "theme-ui";
-
+import { Card, Container, Flex, Heading, Link, Text } from 'theme-ui'
 
 export default function Faq() {
-    return(
-            <Flex
+  return (
+    <Flex
       as="main"
       sx={{
         bg: 'background',
@@ -35,10 +34,7 @@ export default function Faq() {
         >
           <Text variant="subtitle">
             If you are a teenager below 18 years of age, you can sign up{' '}
-            <Link href="https://hack.club/join/UPVJZG">
-              here
-            </Link>
-            .
+            <Link href="https://hack.club/join/UPVJZG">here</Link>.
           </Text>
         </Card>
       </Container>
@@ -57,5 +53,5 @@ export default function Faq() {
         </Card>
       </Container>
     </Flex>
-    )
+  )
 }

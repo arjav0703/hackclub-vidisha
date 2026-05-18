@@ -1,9 +1,8 @@
-import { Container, Grid, Heading } from "theme-ui"
-import Bio from "./bio"
-
+import { Container, Grid, Heading } from 'theme-ui'
+import Bio from './bio'
 
 export default function Team() {
-    return(
+  return (
     <Container>
       <Heading variant="headline">Team</Heading>
       <Container sx={{ display: 'flex', flexWrap: 'wrap' }}>
@@ -34,5 +33,5 @@ export default function Team() {
         </Grid>
       </Container>
     </Container>
-    )
+  )
 }
