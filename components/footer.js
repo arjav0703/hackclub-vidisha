@@ -104,7 +104,7 @@ const Footer = ({
             Donate
           </Link>
         </Box>
-        <text>Made with &#128157; by <Link href='https://jain.arjav.tech'>Arjav</Link> 
+        <text>Made with &#128157; by <Link href='https://github.com/arjav0703'>Arjav</Link> 
         <br></br>
         <Link href='https://github.com/HackClub-Vidisha/site/'>Source code</Link></text>
 
