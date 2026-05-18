@@ -11,6 +11,7 @@ import {
   Text
 } from 'theme-ui'
 import ColorSwitcher from '../components/color-switcher'
+import Bio from '../components/bio'
 
 export default function CampPage() {
   return (
@@ -40,7 +41,7 @@ export default function CampPage() {
       </Box>
 
       <Container variant="copy">
-        <Heading as="h2" variant="title" sx={{ mt: 5 }}>
+        <Heading variant="title" sx={{ mt: 5 }}>
           Workshops
         </Heading>
         {workshops.map(workshop => (
@@ -51,6 +52,32 @@ export default function CampPage() {
             color={workshop.color}
           />
         ))}
+      </Container>
+      <Container my={100}>
+        <Heading variant="title">FAQ</Heading>
+        {faq.map(item => (
+          <Box key={item.question} sx={{ mb: 4 }}>
+            <Heading variant="headline" color="accent">
+              {item.question}
+            </Heading>
+            <Text sx={{ fontSize: 3 }}>{item.answer}</Text>
+          </Box>
+        ))}
+      </Container>
+
+      <Container>
+        <Heading variant="title">Meet the Team</Heading>
+        <Grid columns={[1, 2]} gap={4} my={4}>
+          {team.map(member => (
+            <Bio
+              key={member.name}
+              name={member.name}
+              teamRole={member.role}
+              bgcolor={member.bgcolor}
+              img={member.image}
+            />
+          ))}
+        </Grid>
       </Container>
     </>
   )
@@ -115,5 +142,46 @@ const workshops = [
     description:
       '3D Model your own custom keychain and get it 3D printed to take home.',
     color: '#6b89ff'
+  }
+]
+
+const faq = [
+  {
+    question: 'Who can attend the camp?',
+    answer:
+      'The camp is open to all students of Trinity Convent Sr. Sec. School.'
+  },
+  {
+    question: 'How do I register for the camp?',
+    answer:
+      'Contact your teachers or office staff to register for the camp. Registration is required to attend.'
+  },
+  {
+    question: 'Do I need a laptop to attend the camp?',
+    answer:
+      'No, all students will be provided a computer to use during the camp. However, if you have a laptop and would like to bring it, you are welcome to do so.'
+  }
+]
+
+const team = [
+  {
+    name: 'Arjav Jain',
+    role: 'Mentor - Web Developement',
+    bgcolor: '#a9f',
+    image:
+      'https://user-cdn.hackclub-assets.com/019d8088-e1b7-7f91-8f7e-fff20bca0b50/IMG_4885.jpeg'
+  },
+  {
+    name: 'Anay Jain',
+    role: 'Mentor - 3D Modeling and Electric Circuits',
+    bgcolor: '#a9f749',
+    image:
+      'https://cdn.hackclubber.dev/slackcdn/9cf6e20b90387adc81233745545a684d.jpg'
+  },
+  {
+    name: 'Aviral Sen',
+    role: 'Volunteer - Workshop Assistant',
+    bgcolor: '#138dff',
+    image: ''
   }
 ]
