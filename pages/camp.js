@@ -34,9 +34,14 @@ export default function CampPage() {
           <Heading as="h1" variant="ultratitle" color="orange">
             ☀️Tech Summer Camp🏕️
           </Heading>
-          <Button variant="ctaLg" sx={{ mt: 30 }}>
+          <Button variant="ctaLg" sx={{ mt: 30, display: 'block', mx: 'auto' }}>
             June 1st - June 15th, 2026
           </Button>
+          <a href="https://hackclubvidisha.fillout.com/t/rHJ6BWoZTcus">
+            <Button variant="ctaLg" sx={{ mt: 30 }}>
+              Fill the form
+            </Button>
+          </a>
         </Container>
       </Box>
 

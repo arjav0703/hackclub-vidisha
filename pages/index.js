@@ -118,7 +118,7 @@ const HomePage = () => (
             Instagram
           </Button>
         </Grid>
-        <Button as="a" href="https://hack.club/0z65uj" variant="lg">
+        <Button as="a" href="https://hack.club/join/UPVJZG" variant="lg">
           Join Us
         </Button>
       </Container>
