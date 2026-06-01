@@ -42,6 +42,11 @@ export default function CampPage() {
               Fill the form
             </Button>
           </a>
+          <a href="https://hackclubvidisha.fillout.com/t/feTSKh2pStus">
+            <Button variant="ctaLg" sx={{ mt: 30 }}>
+              Uplpoad website 1
+            </Button>
+          </a>
         </Container>
       </Box>
 
