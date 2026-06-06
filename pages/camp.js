@@ -47,6 +47,12 @@ export default function CampPage() {
               Uplpoad website 1
             </Button>
           </a>
+           <a href="https://skribbl.io/?oxCkoNJr">
+            <Button variant="ctaLg" sx={{ mt: 30 }}>
+              skribbl
+            </Button>
+          </a>
+          
         </Container>
       </Box>
 
