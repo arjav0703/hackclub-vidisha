@@ -47,9 +47,9 @@ export default function CampPage() {
               Uplpoad website 1
             </Button>
           </a>
-           <a href="https://skribbl.io/?x6C8q3fF">
+           <a href="https://hackclubvidisha.fillout.com/t/u3VUypbKzGus">
             <Button variant="ctaLg" sx={{ mt: 30 }}>
-              skribbl
+              Upload keychain
             </Button>
           </a>
           
