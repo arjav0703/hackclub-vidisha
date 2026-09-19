@@ -27,31 +27,50 @@ import Icon from '@hackclub/icons'
 
 export default function UpcomingEvents() {
   return (
-    <Container sx={{ mt: 20, color: 'yellow' }} variant="copy">
+    <Container sx={{ my: 5, color: 'smoke' }} variant="copy">
       <Text variant="title">
-        <Icon glyph="event-code" size={50} /> Upcoming Event
+        <Icon glyph="event-code" size={50} /> Upcoming Event(s)
       </Text>
-      <a href="/camp">
-        <Card
-          variant="interactive"
+      <a href="https://www.instagram.com/haven.vidisha.hackclub/" target='_blank'>
+      <Card
+        variant="interactive"
+        sx={{
+          mt: 3,
+          padding: 0,
+          overflow: 'hidden',
+          position: 'relative',
+          width: '100%',
+          maxWidth: '1054px',
+          aspectRatio: '1054 / 622',
+          backgroundImage: "url('/haven.png')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        <Box
           sx={{
-            mt: 3,
-            bgcolor: 'cyan'
+            position: 'absolute',
+            left: 0,
+            right: 0,
+            bottom: 0,
+            p: [3, 4],
+            background:
+              'linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0))',
+            color: 'white'
           }}
         >
-          <Heading variant="headline" as="h3" my={0} color="yellow">
-            Trinity Summer Camp ☀️
+
+          <Badge variant="pill" sx={{ bg: 'red', color: 'white', mb: 2 }}>
+            24-hour hackathon
+          </Badge>
+          <Heading variant="headline" as="h3" my={0} sx={{ color: 'white' }}>
+            Haven Vidisha
           </Heading>
-          <Text variant="subtitle">
-            <Icon glyph="clock" size={24} sx={{ pt: 100 }} />
-            June 1-15, 2026
-            <br />
-            <Text>
-              Learn to build websites, 3D Models, and Electric Circuits. <br />
-              Hosted at Trinity Convent Sr. Sec. School, Vidisha. Contact your
-              teachers/office staff for registration.
-            </Text>
+          <Text variant="subtitle" sx={{ color: 'white', display: 'block' }}>
+            <Icon glyph="clock" size={24} /> Nov 14–15
           </Text>
+        </Box>
         </Card>
       </a>
     </Container>
@@ -100,6 +119,32 @@ export function PastEvents() {
           <Icon glyph="food" /> Free food :P <br />
         </Text>
       </Card>
-    </Container>
+
+      <a href="/camp">
+        <Card
+          variant="interactive"
+          sx={{
+            mt: 3,
+            bgcolor: 'elevated',
+            color: 'secondary'
+          }}
+        >
+          <Heading variant="headline" as="h3" my={0}>
+            Trinity Summer Camp ☀️
+          </Heading>
+          <Text variant="subtitle">
+            <Icon glyph="clock" size={24} sx={{ pt: 100 }} />
+            June 1-15, 2026
+            <br />
+            <Text>
+              Learn to build websites, 3D Models, and Electric Circuits. <br />
+              Hosted at Trinity Convent Sr. Sec. School, Vidisha. Contact your
+              teachers/office staff for registration.
+            </Text>
+          </Text>
+        </Card>
+      </a>
+
+      </Container>
   )
 }
