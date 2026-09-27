@@ -31,7 +31,7 @@ export default function UpcomingEvents() {
       <Text variant="title">
         <Icon glyph="event-code" size={50} /> Upcoming Event(s)
       </Text>
-      <a href="https://www.instagram.com/haven.vidisha.hackclub/" target='_blank'>
+      <a href="https://haven.hackclub.com/vidisha" target='_blank'>
       <Card
         variant="interactive"
         sx={{
